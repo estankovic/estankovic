@@ -1,16 +1,30 @@
-### Hi there 👋
+### Hi there, I'm <a href="https://estankovic.com" target="_blank">Eduard Stankovič</a> 👋
 
-<!--
-**estankovic/estankovic** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-0e76a8?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/eduard-stankovi%C4%8D-9449649b/)
+[![Website Badge](https://img.shields.io/badge/Website-3b5998?style=flat-square&logo=google-chrome&logoColor=white)](https://estankovic.com)
+[![Instagram Badge](https://img.shields.io/badge/-Instagram-e4405f?style=flat-square&logo=Instagram&logoColor=white)](https://www.instagram.com/eduard.stankovic)
+[![Medium Badge](https://img.shields.io/badge/medium-%2312100E.svg?&style=for-square&logo=medium&logoColor=white)](https://medium.com/@eduardstankovic)
 
-Here are some ideas to get you started:
+<br/>
+<br/>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I am an IT professional with over **8 years of experience**. For the last 4 years I almost exclusively **specialize at Angular Framework**. Among other technologies I have recently touched belongs **IONIC**, **Firebase**, **NestJs** and many others.
+
+
+
+<img align="right" alt="GIF" src="https://raw.githubusercontent.com/estankovic/estankovic/main/assets/99312-developer-skills.gif" style="width: 250px; height: auto"/>
+  
+<br/>
+<br/>
+  
+
+**What am I doooing, if not at my 9to5 job:**
+
+- 👨🏻‍💻 I’m currently working on something cool, It should be released Soon™.
+- 💬 Helping friend to learn coding.
+- 📝 Time to time, [I draw something](https://www.instagram.com/eduard.stankovic/)
+- 📫 How to reach me: gapur.kassym@gmail.com;
+- 📝 [Resume](https://gkassym.netlify.app/Resume.pdf).
+
+
+
