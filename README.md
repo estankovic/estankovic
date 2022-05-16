@@ -23,8 +23,7 @@ I am an IT professional with over **8 years of experience**. For the last 4 year
 - 👨🏻‍💻 I’m currently working on something cool, It should be released Soon™.
 - 💬 Helping friend to learn coding.
 - 📝 Time to time, [I draw something](https://www.instagram.com/eduard.stankovic/)
-- 📫 How to reach me: gapur.kassym@gmail.com;
-- 📝 [Resume](https://gkassym.netlify.app/Resume.pdf).
+
 
 
 
