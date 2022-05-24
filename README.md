@@ -10,15 +10,9 @@
 
 I am an IT professional with over **8 years of experience**. For the last 4 years I almost exclusively **specialize at Angular Framework**. Among other technologies I have recently touched belongs **IONIC**, **Firebase**, **NestJs** and many others.
 
-
-
-<img align="right" alt="GIF" src="https://raw.githubusercontent.com/estankovic/estankovic/main/assets/99312-developer-skills.gif" style="width: 250px; height: auto"/>
-  
 <br/>
-<br/>
-  
 
-**What am I doooing, if not at my 9to5 job:**
+**What am I doing, if not at my 9to5 job:**
 
 - 👨🏻‍💻 I’m currently working on something cool, It should be released Soon™.
 - 💬 Helping friend to learn coding.
