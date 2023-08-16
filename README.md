@@ -17,8 +17,26 @@ I am an IT professional with over **8 years of experience**. For the last 4 year
 
 <hr>
 
+## Technologies I use Daily
 
-## Experiences
+![Static Badge](https://img.shields.io/badge/NodeJs-339933?logo=nodedotjs&logoColor=white)
+![Static Badge](https://img.shields.io/badge/React-09D3AC?logo=react&logoColor=white)
+![Static Badge](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Static Badge](https://img.shields.io/badge/GCP-4285F4?logo=googlecloud&logoColor=white)
+![Static Badge](https://img.shields.io/badge/Ionic-3880FF?logo=ionic&logoColor=white)
+![Static Badge](https://img.shields.io/badge/Stencil.Js-5530ff)
+![Static Badge](https://img.shields.io/badge/Redux-764abc?logo=redux)
+![Static Badge](https://img.shields.io/badge/PWA-5A0FC8?logo=pwa&logoColor=white)
+![Static Badge](https://img.shields.io/badge/RxJs-B7178C?logo=reactivex)
+![Static Badge](https://img.shields.io/badge/Sass-CC6699?logo=sass&logoColor=white)
+![Static Badge](https://img.shields.io/badge/NestJs-E0234E?logo=nestjs&logoColor=white)
+![Static Badge](https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white)
+![Static Badge](https://img.shields.io/badge/NPM-CB3837?logo=npm&logoColor=white)
+![Static Badge](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+
+<hr>
+
+## Work Experiences
 
 During my career I had chance to work on many different projects. From small personal project to big corporate applications that had to serve thousands of customers.
 
