@@ -44,8 +44,12 @@ As all projects were unique, I encountered many different challenges, but I was 
 
 In the list below are some of my work experiences or projects that I had privilege to be a part of.
 
+### SentinelOne ***(MAY 2022 - Present)***
 
-### Uniqa.at ***(OCT 2020 - Present)***
+As a Staff Software Engineer at SentinelOne I help deliver all internal tools, components to our internal feature teams so they can focus on solving business needs. Other than that, I assist in migrating Angular Project to React which allowed me to gain new perspectives in Frontend world.
+      
+
+### Uniqa.at ***(OCT 2020 - MAR 2022)***
 
 At Uniqa.at I had a chance to work on their customer portal MyUniqa. Later I have been transferred to work on transforming theirs internal applications. I work in a frontend team consisting of 3 FE developer, where I am the lead developer. Our goal is to introduce new sustainable technology and improve UX and UI.
 
