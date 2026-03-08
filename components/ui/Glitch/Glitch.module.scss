@@ -1,6 +1,6 @@
 .glitch {
   position: relative;
-  color: white;
+  color: var(--color-bg);
   display: inline-block;
 
   &::before {
@@ -46,7 +46,7 @@
   margin: 0;
   font-weight: 700;
   text-transform: uppercase;
-  background: black;
+  background: var(--color-fg);
   padding-inline: 0.67rem;
   rotate: -1deg;
 

@@ -5,6 +5,24 @@
 :root {
   --chromatic-1: rgb(255 0 204);
   --chromatic-2: rgb(52 219 206);
+
+  --color-bg: #ffffff;
+  --color-fg: #000000;
+  --color-border: #000000;
+  --color-border-subtle: #e5e7eb;
+  --color-surface: #ffffff;
+  --color-placeholder: #e5e5e5;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #232323;
+    --color-fg: #f0f0f0;
+    --color-border: #f0f0f0;
+    --color-border-subtle: #383838;
+    --color-surface: #2d2d2d;
+    --color-placeholder: #3a3a3a;
+  }
 }
 
 *,
@@ -23,6 +41,8 @@ body {
     Liberation Mono, Courier New, monospace;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  background-color: var(--color-bg);
+  color: var(--color-fg);
 }
 
 img,

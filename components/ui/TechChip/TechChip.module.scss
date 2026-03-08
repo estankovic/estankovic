@@ -1,7 +1,7 @@
 .chip {
   position: relative;
   display: inline-block;
-  border: 1px solid var(--chip-c2, black);
+  border: 1px solid var(--chip-c2, var(--color-border));
   cursor: default;
 
   &::before {
@@ -74,13 +74,13 @@
   font-size: 0.875rem;
   font-weight: 700;
   text-transform: uppercase;
-  background: white;
-  color: black;
+  background: var(--color-bg);
+  color: var(--color-fg);
   rotate: 0deg;
 
   .chip:hover & {
-    background: black;
-    color: white;
+    background: var(--color-fg);
+    color: var(--color-bg);
     rotate: -1deg;
   }
 }
