@@ -100,3 +100,12 @@
     color: white;
   }
 }
+
+.chip {
+  @media print {
+    &::before,
+    &::after {
+      display: none;
+    }
+  }
+}

@@ -9,6 +9,15 @@
     z-index: 10;
     position: relative;
   }
+
+  @media print {
+    break-inside: avoid;
+
+    &::before,
+    &::after {
+      display: none;
+    }
+  }
 }
 
 .content {

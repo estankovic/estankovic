@@ -3,8 +3,16 @@
   margin: 0 auto;
   padding: 3rem 1.5rem;
   border-top: 1px solid #e5e7eb;
+
+  @media print {
+    max-width: 100%;
+  }
 }
 
 .heading {
   margin-bottom: 2rem;
+
+  @media print {
+    break-after: avoid;
+  }
 }

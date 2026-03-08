@@ -69,3 +69,41 @@ ul,
 ol {
   list-style: none;
 }
+
+@media print {
+  @page {
+    margin: 1.5cm;
+  }
+
+  body {
+    font-size: 11pt;
+    color: black;
+    background: white;
+  }
+
+  /* Sections break before if they don't fit — never split internally */
+  section {
+    break-inside: avoid;
+  }
+
+  /* Allow Experience section to break between cards but not within them */
+  section:has(> *) {
+    break-inside: auto;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    opacity: 0.6;
+  }
+
+  a[href^="#"]::after,
+  a[href^="javascript"]::after {
+    content: "";
+  }
+}
