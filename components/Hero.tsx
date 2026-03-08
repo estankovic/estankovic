@@ -11,7 +11,11 @@ export default function Hero() {
   return (
     <section className={styles.hero}>
       <div className={styles.intro}>
-        <div className={styles.avatar} />
+        <Glitch>
+          <div className={styles.avatar}>
+            <img src="/logos/me.png" alt="Eduard Stankovič" />
+          </div>
+        </Glitch>
         <div className={styles.identity}>
           <Glitch><h1>Eduard Stankovič</h1></Glitch>
           <p className={styles.subtitle}>Builds UIs by day 💻, paints landscapes by weekend 🎨 — somewhere between pixels, rocks 🪨, and mountain trails ⛰️.</p>
