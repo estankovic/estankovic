@@ -1,0 +1,53 @@
+.hero {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 5rem 1.5rem;
+}
+
+.intro {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.avatar {
+  flex-shrink: 0;
+  width: 10rem;
+  height: 10rem;
+  background-color: #e5e5e5;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.identity {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+.subtitle {
+  opacity: 0.6;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.link {
+  font-size: 0.875rem;
+  opacity: 0.5;
+  text-underline-offset: 2px;
+  text-decoration: underline;
+  transition: opacity 150ms ease;
+
+  &:hover {
+    opacity: 1;
+  }
+}
