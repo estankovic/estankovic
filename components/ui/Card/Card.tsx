@@ -21,7 +21,7 @@ export default function Card({ title, content, variant = "default", className }:
     >
       <div className={styles.content}>
         <div className={styles.title}>{title}</div>
-        <div>{content}</div>
+        {content}
       </div>
     </div>
   );

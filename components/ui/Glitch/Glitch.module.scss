@@ -1,69 +1,40 @@
 .glitch {
-  // Animated values exposed as CSS custom properties so parents can override them
-  --_before-height: calc(100% + 3px);
-  --_before-width: calc(100% + 5px);
-  --_before-top: -8px;
-  --_before-left: -10px;
-  --_after-height: calc(100% + 3px);
-  --_after-width: calc(100% + 5px);
-  --_after-top: 4px;
-  --_after-left: 4px;
-  --_title-rotate: -1deg;
-
   position: relative;
   color: white;
   display: inline-block;
 
   &::before {
-    --clip-tl-x: 4px;
-    --clip-tl-y: 4px;
-    --clip-tr-x: 4px;
-    --clip-tr-y: 1px;
-    --clip-br-x: 1px;
-    --clip-br-y: 3px;
-    --clip-bl-x: 1px;
-    --clip-bl-y: 4px;
-
     transition: all ease 275ms;
     z-index: 1;
     position: absolute;
     content: "";
-    height: var(--_before-height);
-    width: var(--_before-width);
-    top: var(--_before-top);
-    left: var(--_before-left);
+    height: calc(100% + 3px);
+    width: calc(100% + 5px);
+    top: -8px;
+    left: -10px;
     background-color: var(--chromatic-1);
     clip-path: polygon(
-      var(--clip-tl-x) var(--clip-tl-y),
-      calc(100% - var(--clip-tr-x)) var(--clip-tr-y),
-      calc(100% - var(--clip-br-x)) calc(100% - var(--clip-br-y)),
-      var(--clip-bl-x) calc(100% - var(--clip-bl-y))
+      4px 4px,
+      calc(100% - 4px) 1px,
+      calc(100% - 1px) calc(100% - 3px),
+      1px calc(100% - 4px)
     );
   }
 
   &::after {
-    --clip-tl-x: 1px;
-    --clip-tl-y: 1px;
-    --clip-tr-x: 2px;
-    --clip-tr-y: 0px;
-    --clip-br-x: 3px;
-    --clip-br-y: 2px;
-    --clip-bl-x: 8px;
-    --clip-bl-y: 1px;
-
     transition: all ease 275ms;
     position: absolute;
     content: "";
-    height: var(--_after-height);
-    width: var(--_after-width);
-    top: var(--_after-top);
-    left: var(--_after-left);
+    height: calc(100% + 3px);
+    width: calc(100% + 5px);
+    top: 4px;
+    left: 4px;
     background-color: var(--chromatic-2);
     clip-path: polygon(
-      var(--clip-tl-x) var(--clip-tl-y),
-      calc(100% - var(--clip-tr-x)) var(--clip-tr-y),
-      calc(100% - var(--clip-br-x)) calc(100% - var(--clip-br-y)),
-      var(--clip-bl-x) calc(100% - var(--clip-bl-y))
+      1px 1px,
+      calc(100% - 2px) 0px,
+      calc(100% - 3px) calc(100% - 2px),
+      8px calc(100% - 1px)
     );
   }
 }
@@ -77,6 +48,9 @@
   text-transform: uppercase;
   background: black;
   padding-inline: 0.67rem;
-  rotate: var(--_title-rotate);
+  rotate: -1deg;
 
+  @media print {
+    rotate: 0deg;
+  }
 }
