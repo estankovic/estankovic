@@ -42,13 +42,13 @@ export default function ExperienceCard({
     <>
       <p className={styles.description}>{description}</p>
       {items.length > 0 && (
-        <ul className={styles.items}>
+        <div className={styles.items}>
           {items.map((item, i) => (
-            <li key={i} className={styles.item}>
+            <span key={i} className={styles.item}>
               {item.label}
-            </li>
+            </span>
           ))}
-        </ul>
+        </div>
       )}
     </>
   );
