@@ -1,0 +1,185 @@
+body {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    Liberation Mono, Courier New, monospace;
+
+  --chromatic-1: rgb(255 0 204);
+  --chromatic-2: rgb(52 219 206);
+
+  padding: 3rem;
+  margin: 0 auto;
+  width: 600px;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+.glitch-title {
+  position: relative;
+  color: white;
+  display: inline-block;
+
+  &::before {
+    /* top-left (from left / from top) */
+    --clip-tl-x: 4px;
+    --clip-tl-y: 4px;
+
+    /* top-right (from right / from top) */
+    --clip-tr-x: 4px;
+    --clip-tr-y: 1px;
+
+    /* bottom-right */
+    --clip-br-x: 1px;
+    --clip-br-y: 3px; /* because 97% from top = 3% from bottom */
+
+    /* bottom-left (from left / from bottom) */
+    --clip-bl-x: 1px;
+    --clip-bl-y: 4px;
+
+    transition: all ease 275ms;
+
+    z-index: 1;
+    background: red;
+    position: absolute;
+    content: "";
+    height: calc(100% + 3px);
+    width: calc(100% + 5px);
+    top: -8px;
+    left: -10px;
+    background-color: var(--chromatic-1);
+    clip-path: polygon(
+      /* top-left */ var(--clip-tl-x) var(--clip-tl-y),
+      /* top-right */ calc(100% - var(--clip-tr-x)) var(--clip-tr-y),
+      /* bottom-right */ calc(100% - var(--clip-br-x))
+        calc(100% - var(--clip-br-y)),
+      /* bottom-left */ var(--clip-bl-x) calc(100% - var(--clip-bl-y))
+    );
+  }
+
+  &::after {
+    /* top-left (from left / from top) */
+    --clip-tl-x: 1px;
+    --clip-tl-y: 1px;
+
+    /* top-right (from right / from top) */
+    --clip-tr-x: 2px;
+    --clip-tr-y: 0px;
+
+    /* bottom-right (from right / from bottom) */
+    --clip-br-x: 3px;
+    --clip-br-y: 2px;
+
+    /* bottom-left (from left / from bottom) */
+    --clip-bl-x: 8px;
+    --clip-bl-y: 1px;
+
+    transition: all ease 275ms;
+
+    position: absolute;
+    content: "";
+    height: calc(100% + 3px);
+    width: calc(100% + 5px);
+    top: 4px;
+    left: 4px;
+    background-color: var(--chromatic-2);
+    clip-path: polygon(
+      /* top-left */ var(--clip-tl-x) var(--clip-tl-y),
+      /* top-right */ calc(100% - var(--clip-tr-x)) var(--clip-tr-y),
+      /* bottom-right */ calc(100% - var(--clip-br-x))
+        calc(100% - var(--clip-br-y)),
+      /* bottom-left */ var(--clip-bl-x) calc(100% - var(--clip-bl-y))
+    );
+  }
+
+  .title {
+    transition: all ease 275ms;
+    position: relative;
+    z-index: 2;
+    margin: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: black;
+    padding-inline: 0.67rem;
+    rotate: -1deg;
+  }
+}
+
+.card {
+  position: relative;
+  margin-bottom: 2.75rem;
+
+  &:hover {
+    .glitch-title {
+      &::after {
+        height: 100%;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+      }
+
+      &::before {
+        height: 100%;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+      }
+
+      .title {
+        rotate: 0deg;
+      }
+    }
+
+    &:before,
+    &:after {
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      rotate: 0deg;
+    }
+  }
+
+  > * {
+    z-index: 10;
+    position: relative;
+  }
+
+  .content {
+    position: relative;
+    border: 1px solid black;
+    padding: 0 1rem 1rem 1rem;
+  }
+
+  &:before {
+    transition: all ease 275ms;
+    z-index: 1;
+    top: -2px;
+    left: -5px;
+    position: absolute;
+    content: "";
+    border: 1px solid var(--chromatic-1);
+    width: calc(100% + 1px);
+    height: calc(100% + 2px);
+    rotate: -0.65deg;
+  }
+
+  &:after {
+    transition: all ease 275ms;
+    z-index: 2;
+    top: -1px;
+    left: 3px;
+    position: absolute;
+    content: "";
+    border: 1px solid var(--chromatic-2);
+    width: calc(100% + 2px);
+    height: calc(100% + 0px);
+    rotate: 0.55deg;
+  }
+
+  .glitch-title {
+    margin-left: calc(-1rem - 1px);
+    margin-top: -1rem;
+  }
+}

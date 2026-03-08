@@ -5,7 +5,11 @@
       "Bash(node --version)",
       "Bash(nvm ls)",
       "Bash(npm run dev)",
-      "Bash(git checkout -b nextjs-rewrite)"
+      "Bash(git checkout -b nextjs-rewrite)",
+      "Bash(npm install --save-dev sass)",
+      "Bash(git add app/globals.css app/layout.tsx components/Experience.tsx content/experience.mdx package-lock.json package.json components/ui/)",
+      "Bash(git commit:*)",
+      "Bash(git add -A)"
     ]
   }
 }
