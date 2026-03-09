@@ -51,10 +51,12 @@ Currently I work at **SentinelOne**, where I focus primarily on design systems �
 ### SentinelOne — Staff Frontend Engineer *(MAY 2022 – Present)*
 Joined initially as a feature developer, collaborating closely with product to ship at pace. After proving my footing, I moved into the platform team — responsible for all shared frontend infrastructure: libraries, components and tooling used across the product. I played a key role in migrating the codebase from Angular to React, and to speed up that migration I started a new Design System — where I am the lead developer today.
 
-`Angular to React` `Design System` `Shared features` `Internal tooling` `Lead developer`
+### SentinelOne ***(MAY 2022 - Present)***
 
-### Uniqa.at — Lead Frontend Developer *(OCT 2020 – MAR 2022)*
-At Uniqa.at I started on MyUniqa, their customer-facing portal and mobile application, then moved to transforming internal tooling. Led a team of 3 frontend developers, drove the adoption of modern technology and raised the bar on UX and UI quality across the board.
+As a Staff Software Engineer at SentinelOne I help deliver all internal tools, components to our internal feature teams so they can focus on solving business needs. Other than that, I assist in migrating Angular Project to React which allowed me to gain new perspectives in Frontend world.
+      
+
+### Uniqa.at ***(OCT 2020 - MAR 2022)***
 
 `Mobile dev` `Design System` `WebComponents` `Leading a team`
 
