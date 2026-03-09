@@ -1,0 +1,86 @@
+.chip {
+  position: relative;
+  display: inline-block;
+  border: 1px solid var(--chip-c2, var(--color-border));
+  cursor: default;
+
+  &::before {
+    transition: all ease 275ms;
+    z-index: 1;
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--chip-c1, var(--chromatic-1));
+    clip-path: polygon(
+      4px 4px,
+      calc(100% - 4px) 1px,
+      calc(100% - 1px) calc(100% - 3px),
+      1px calc(100% - 4px)
+    );
+  }
+
+  &::after {
+    transition: all ease 275ms;
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--chip-c2, var(--chromatic-2));
+    clip-path: polygon(
+      1px 1px,
+      calc(100% - 2px) 0px,
+      calc(100% - 3px) calc(100% - 2px),
+      8px calc(100% - 1px)
+    );
+  }
+
+  &:hover {
+    border-color: transparent;
+
+    &::before {
+      height: calc(100% + 3px);
+      width: calc(100% + 5px);
+      top: -8px;
+      left: -10px;
+    }
+
+    &::after {
+      height: calc(100% + 3px);
+      width: calc(100% + 5px);
+      top: 4px;
+      left: 4px;
+    }
+  }
+
+  @media print {
+    &::before,
+    &::after {
+      display: none;
+    }
+  }
+}
+
+.label {
+  transition: all ease 275ms;
+  position: relative;
+  z-index: 2;
+  display: block;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: var(--color-bg);
+  color: var(--color-fg);
+  rotate: 0deg;
+
+  .chip:hover & {
+    background: var(--color-fg);
+    color: var(--color-bg);
+    rotate: -1deg;
+  }
+}

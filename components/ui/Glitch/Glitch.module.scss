@@ -1,0 +1,60 @@
+.glitch {
+  position: relative;
+  color: var(--color-bg);
+  display: inline-block;
+
+  &::before {
+    transition: all ease 275ms;
+    z-index: 1;
+    position: absolute;
+    content: "";
+    height: calc(100% + 3px);
+    width: calc(100% + 5px);
+    top: -8px;
+    left: -10px;
+    background-color: var(--chromatic-1);
+    clip-path: polygon(
+      4px 4px,
+      calc(100% - 4px) 1px,
+      calc(100% - 1px) calc(100% - 3px),
+      1px calc(100% - 4px)
+    );
+  }
+
+  &::after {
+    transition: all ease 275ms;
+    position: absolute;
+    content: "";
+    height: calc(100% + 3px);
+    width: calc(100% + 5px);
+    top: 4px;
+    left: 4px;
+    background-color: var(--chromatic-2);
+    clip-path: polygon(
+      1px 1px,
+      calc(100% - 2px) 0px,
+      calc(100% - 3px) calc(100% - 2px),
+      8px calc(100% - 1px)
+    );
+  }
+
+  > * {
+    transition: all ease 275ms;
+    position: relative;
+    z-index: 2;
+    margin: 0;
+    background: var(--color-fg);
+    rotate: -1deg;
+
+    @media print {
+      rotate: 0deg;
+    }
+  }
+
+  // Text elements get additional typographic treatment
+  > :is(h1, h2, h3, h4, h5, h6, p, span) {
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-inline: 0.67rem;
+  }
+}

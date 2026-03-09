@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Background -->
+  <rect width="32" height="32" fill="black"/>
+
+  <!-- Chromatic layer 1 — magenta, offset top-left -->
+  <text
+    x="16" y="23"
+    text-anchor="middle"
+    font-family="ui-monospace, monospace"
+    font-weight="700"
+    font-size="17"
+    fill="rgb(255,0,204)"
+    transform="translate(-1.5 -1.5)"
+  >ES</text>
+
+  <!-- Chromatic layer 2 — teal, offset bottom-right -->
+  <text
+    x="16" y="23"
+    text-anchor="middle"
+    font-family="ui-monospace, monospace"
+    font-weight="700"
+    font-size="17"
+    fill="rgb(52,219,206)"
+    transform="translate(1.5 1.5)"
+  >ES</text>
+
+  <!-- Main text — white on top -->
+  <text
+    x="16" y="23"
+    text-anchor="middle"
+    font-family="ui-monospace, monospace"
+    font-weight="700"
+    font-size="17"
+    fill="white"
+  >ES</text>
+</svg>

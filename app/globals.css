@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --chromatic-1: rgb(255 0 204);
+  --chromatic-2: rgb(52 219 206);
+
+  --color-bg: #ffffff;
+  --color-fg: #000000;
+  --color-border: #000000;
+  --color-border-subtle: #e5e7eb;
+  --color-surface: #ffffff;
+  --color-placeholder: #e5e5e5;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #232323;
+    --color-fg: #f0f0f0;
+    --color-border: #f0f0f0;
+    --color-border-subtle: #383838;
+    --color-surface: #2d2d2d;
+    --color-placeholder: #3a3a3a;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    Liberation Mono, Courier New, monospace;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+}
+
+img,
+video,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+p + p {
+  margin-top: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+@media print {
+  @page {
+    margin: 1.5cm;
+  }
+
+  body {
+    font-size: 11pt;
+    color: black;
+    background: white;
+  }
+
+  /* Sections break before if they don't fit — never split internally */
+  section {
+    break-inside: avoid;
+  }
+
+  /* Allow Experience section to break between cards but not within them */
+  section:has(> *) {
+    break-inside: auto;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    opacity: 0.6;
+  }
+
+  a[href^="#"]::after,
+  a[href^="javascript"]::after {
+    content: "";
+  }
+}

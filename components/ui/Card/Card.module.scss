@@ -1,0 +1,78 @@
+.card {
+  position: relative;
+
+  & + & {
+    margin-top: 2.75rem;
+  }
+
+  > * {
+    z-index: 10;
+    position: relative;
+  }
+
+  @media print {
+    break-inside: avoid;
+
+    &::before,
+    &::after {
+      display: none;
+    }
+  }
+}
+
+.content {
+  position: relative;
+  border: 1px solid var(--color-border);
+  padding: 1rem;
+}
+
+.title {
+  margin-bottom: 0.75rem;
+}
+
+// Glitch variant — chromatic aberration borders revealed on hover
+.glitch {
+  &::before {
+    transition: all ease 275ms;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    content: "";
+    border: 1px solid var(--chromatic-1);
+    width: 100%;
+    height: 100%;
+    rotate: 0deg;
+  }
+
+  &::after {
+    transition: all ease 275ms;
+    z-index: 2;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    content: "";
+    border: 1px solid var(--chromatic-2);
+    width: 100%;
+    height: 100%;
+    rotate: 0deg;
+  }
+
+  &:hover {
+    &::before {
+      top: -2px;
+      left: -5px;
+      width: calc(100% + 1px);
+      height: calc(100% + 2px);
+      rotate: -0.65deg;
+    }
+
+    &::after {
+      top: -1px;
+      left: 3px;
+      width: calc(100% + 2px);
+      height: calc(100% + 0px);
+      rotate: 0.55deg;
+    }
+  }
+}

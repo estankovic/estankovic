@@ -1,48 +1,55 @@
-# Hi there, I'm <a href="https://estankovic.com" target="_blank">Eduard Stankovič</a> 👋
+# Eduard Stankovič
 
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-0e76a8?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/eduard-stankovi%C4%8D-9449649b/)
-[![Website Badge](https://img.shields.io/badge/Website-3b5998?style=flat-square&logo=google-chrome&logoColor=white)](https://estankovic.com)
-[![Instagram Badge](https://img.shields.io/badge/-Instagram-e4405f?style=flat-square&logo=Instagram&logoColor=white)](https://www.instagram.com/eduard.stankovic)
-[![Medium Badge](https://img.shields.io/badge/medium-%2312100E.svg?&style=for-square&logo=medium&logoColor=white)](https://medium.com/@eduardstankovic)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0e76a8?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/eduard-stankovi%C4%8D-9449649b/)
+[![Instagram](https://img.shields.io/badge/-Instagram-e4405f?style=flat-square&logo=Instagram&logoColor=white)](https://www.instagram.com/eduard.stankovic)
+[![Medium](https://img.shields.io/badge/Medium-%2312100E.svg?&style=flat-square&logo=medium&logoColor=white)](https://medium.com/@eduardstankovic)
 
-I am an IT professional with over **8 years of experience**. For the last 4 years I almost exclusively **specialize at Angular Framework**. Among other technologies I have recently touched belongs **IONIC**, **Firebase**, **NestJs** and many others.
+Builds UIs by day 💻, paints landscapes by weekend 🎨 — somewhere between pixels, rocks 🪨, and mountain trails ⛰️.
 
-<hr>
+---
 
-## What am I doing, if not at my 9to5 job:
+## About
 
-- 👨🏻‍💻 I’m currently working on something cool, It should be released Soon™.
-- 💬 Helping friend to learn coding.
-- 📝 Occasionally, [I draw something](https://www.instagram.com/eduard.stankovic/)
+I started building for the web as a teenager — over 13 years ago. Back then it was PHP and Laravel, but I soon realised I was more drawn to the visual side of things, so I made the switch to frontend and never looked back.
 
-<hr>
+I started out as an **Angular developer** — I liked the structure and discipline it brought. Over time I broadened my skills and today I'm comfortable working across the frontend stack, with **React** as my primary focus.
 
-## Technologies I use Daily
+Currently I work at **SentinelOne**, where I focus primarily on design systems — which feels like a natural fit for someone who's always cared as much about how things look as how they work.
 
-![Static Badge](https://img.shields.io/badge/NodeJs-339933?logo=nodedotjs&logoColor=white)
-![Static Badge](https://img.shields.io/badge/React-09D3AC?logo=react&logoColor=white)
-![Static Badge](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
-![Static Badge](https://img.shields.io/badge/GCP-4285F4?logo=googlecloud&logoColor=white)
-![Static Badge](https://img.shields.io/badge/Ionic-3880FF?logo=ionic&logoColor=white)
-![Static Badge](https://img.shields.io/badge/Stencil.Js-5530ff)
-![Static Badge](https://img.shields.io/badge/Redux-764abc?logo=redux)
-![Static Badge](https://img.shields.io/badge/PWA-5A0FC8?logo=pwa&logoColor=white)
-![Static Badge](https://img.shields.io/badge/RxJs-B7178C?logo=reactivex)
-![Static Badge](https://img.shields.io/badge/Sass-CC6699?logo=sass&logoColor=white)
-![Static Badge](https://img.shields.io/badge/NestJs-E0234E?logo=nestjs&logoColor=white)
-![Static Badge](https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white)
-![Static Badge](https://img.shields.io/badge/NPM-CB3837?logo=npm&logoColor=white)
-![Static Badge](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+---
 
-<hr>
+## Technologies
 
-## Work Experiences
+![React](https://img.shields.io/badge/React-087EA4?logo=react&logoColor=white)
+![Ionic](https://img.shields.io/badge/Ionic-3880FF?logo=ionic&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Accessibility](https://img.shields.io/badge/Accessibility-0072CE?logo=accessible-icon&logoColor=white)
+![Stencil.js](https://img.shields.io/badge/Stencil.js-16B7FB?logo=stencil&logoColor=white)
+![NX](https://img.shields.io/badge/NX-1B6AC9?logo=nx&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white)
+![Redux](https://img.shields.io/badge/Redux-764ABC?logo=redux&logoColor=white)
+![PWA](https://img.shields.io/badge/PWA-5A0FC8?logo=pwa&logoColor=white)
+![AI](https://img.shields.io/badge/AI-7C3AED?logo=openai&logoColor=white)
+![RxJS](https://img.shields.io/badge/RxJS-B7178C?logo=reactivex&logoColor=white)
+![Sass](https://img.shields.io/badge/Sass-CC6699?logo=sass&logoColor=white)
+![Storybook](https://img.shields.io/badge/Storybook-FF4785?logo=storybook&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?logo=nestjs&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-333333?logo=nextdotjs&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?logo=laravel&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FF6F00?logo=firebase&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-00758F?logo=mysql&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+![Claude Code](https://img.shields.io/badge/Claude_Code-D97706?logo=anthropic&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?logo=googlecloud&logoColor=white)
 
-During my career I had chance to work on many different projects. From small personal project to big corporate applications that had to serve thousands of customers.
+---
 
-As all projects were unique, I encountered many different challenges, but I was always able to find a solution or negotiate good compromise to satisfy all interested parties.
+## Experience
 
-In the list below are some of my work experiences or projects that I had privilege to be a part of.
+### SentinelOne — Staff Frontend Engineer *(MAY 2022 – Present)*
+Joined initially as a feature developer, collaborating closely with product to ship at pace. After proving my footing, I moved into the platform team — responsible for all shared frontend infrastructure: libraries, components and tooling used across the product. I played a key role in migrating the codebase from Angular to React, and to speed up that migration I started a new Design System — where I am the lead developer today.
 
 ### SentinelOne ***(MAY 2022 - Present)***
 
@@ -51,33 +58,34 @@ As a Staff Software Engineer at SentinelOne I help deliver all internal tools, c
 
 ### Uniqa.at ***(OCT 2020 - MAR 2022)***
 
-At Uniqa.at I had a chance to work on their customer portal MyUniqa. Later I have been transferred to work on transforming theirs internal applications. I work in a frontend team consisting of 3 FE developer, where I am the lead developer. Our goal is to introduce new sustainable technology and improve UX and UI.
+`Mobile dev` `Design System` `WebComponents` `Leading a team`
 
+### Revolt.city — Frontend Developer *(DEC 2020 – JUL 2021)*
+A mobile application for field servicemen — built hybrid with Angular, Ionic 5 and Capacitor. Fast to ship, cheap to maintain, and no native compromise needed.
 
-### Revolt.city ***(DEC 2020 - JUL 2021)***
-For the Revolt.city I had a chance to develop mobile application for theirs servicemen. It was build using the latest trends in Hybrid development such as Angular, Ionic 5 and Capacitor.
+`Ionic` `Capacitor` `Firebase` `Mobile dev`
 
-Usage of those technologies allowed fast delivery of the application and reduced the cost of development and maintenance compared to the native counterparts.
+### USU Software s.r.o. — Lead Frontend Developer / Design System *(JUL 2017 – JUL 2020)*
+USU is a large corporation with multiple products across different teams and frameworks. I started on a BI tool for ETL process management, built with Angular and AG Grid for handling large datasets. Later I initiated and led the introduction of a company-wide Design System — choosing WebComponents specifically to support framework-agnostic adoption across the entire organisation from a single shared codebase.
 
-### USU Software s.r.o. ***(JUL 2017 - JUL 2020)***
-USU is a big corporation, that develops many different products/solutions. I had a chance to work on BI tool that helped improve ETL processes build with Angular using Angular Material components.
+`AG Grid` `FE Infrastructure` `Design System` `WebComponents`
 
-Later, when the company was consolidating their different sister companies under one brand, I initiated movement to introduce WebComponents to unify the UI easily as the company used many different technologies for each of theirs products. I became lead developer for the Design System. We chose Stencil.Js as the technology for building those WebComponents and it was a joy to work with it.
+### FlowUp s.r.o. — Frontend Developer *(JUL 2019 – JUN 2020)*
+FlowUp was a Google Partner focused on cloud-based application development. I was assigned to Dashly — a UK fintech startup helping people understand their mortgage options and find better deals. The work was hands-on and product-focused, with a strong emphasis on code quality and the Firebase ecosystem.
 
-### FlowUp s.r.o. ***(JUL 2019 - JUN 2020)***
-FlowUp as a company focused on developing Cloud Based applications (Google Partner). They embraced development communities and organised regular public meetups mostly focused on Angular and I am happy that I had a chance to be part of that as well. I had a chance to attend 2 Firebase conferences, one in Prague, the other in Madrid.
+`Tech debt` `E2E tests` `Performance`
 
-The project I worked on there was UK based fin-tech startup Dashly, that aims to give people better understanding over their current mortgage or helps to find better deal for them. I was mostly responsible for removing technological debt as well as developing new features. I gained there a lot of practical knowledge especially of Firebase related tools.
+### Pindex.sk — Full Stack Developer *(MAR 2014 – JUL 2016)*
+Pindex.sk was a professional network connecting students and teachers at universities and high schools across Slovakia. I joined as a student myself — which made the project both personal and practical. My main contribution was a full platform rewrite using Laravel, with a strong focus on performance, clean architecture, and faithful implementation of a pixel-perfect designer-provided UI.
 
-### Pindex.sk ***(MAR 2014 - JUL 2016)***
-Pindex.sk is professional network for students and teachers of universities and high schools in Slovakia. Where the students could share their notes about teachers and give them a grades based on some objective metrics. It was indeed interesting experience to work on that project especially because by that time I was a student my self.
+`Database design` `Design to code` `Performance` `Maintenance` `Data parsing`
 
-I rewrote their platform to a new standards using up to date versions of Laravel with performance in mind. It was wonderful experience because I had to implement pixel perfect design given me by the very skilled designer.
+---
 
+## Hobbies
 
-
-
-
-
-
-
+- 🎨 **Watercolor painting** — landscapes and bookmarks — [@eduard.stankovic](https://www.instagram.com/eduard.stankovic/)
+- 📷 **Photography** — landscapes shot from places most people don't bother walking to
+- 🪨 **Geology** — rocks, minerals, and yes, I do have a collection
+- ⛰️ **Hiking** — I walk up mountains and sleep under the sky. Voluntarily.
+- 🌱 **Gardening** — growing things slowly and on purpose
