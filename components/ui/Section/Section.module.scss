@@ -1,18 +1,28 @@
 .section {
   max-width: 48rem;
   margin: 0 auto;
-  padding: 3rem 1.5rem;
+  padding: 2rem 1rem;
   border-top: 1px solid var(--color-border-subtle);
+
+  @media screen and (min-width: 640px) {
+    padding: 3rem 1.5rem;
+  }
 
   @media print {
     max-width: 100%;
+    padding: 3rem 1.5rem;
   }
 }
 
 .heading {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
+
+  @media screen and (min-width: 640px) {
+    margin-bottom: 2rem;
+  }
 
   @media print {
+    margin-bottom: 2rem;
     break-after: avoid;
   }
 }

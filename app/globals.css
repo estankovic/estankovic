@@ -74,20 +74,38 @@ p + p {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 1.75rem;
   font-weight: 700;
   line-height: 1.1;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   line-height: 1.2;
+}
+
+@media screen and (min-width: 640px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
 }
 
 @media print {
   @page {
     margin: 1.5cm;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
   }
 
   body {
