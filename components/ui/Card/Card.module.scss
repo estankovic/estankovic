@@ -23,7 +23,15 @@
 .content {
   position: relative;
   border: 1px solid var(--color-border);
-  padding: 1rem;
+  padding: 0.75rem;
+
+  @media screen and (min-width: 640px) {
+    padding: 1rem;
+  }
+
+  @media print {
+    padding: 1rem;
+  }
 }
 
 .title {

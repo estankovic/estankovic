@@ -55,6 +55,14 @@
   > :is(h1, h2, h3, h4, h5, h6, p, span) {
     font-weight: 700;
     text-transform: uppercase;
-    padding-inline: 0.67rem;
+    padding-inline: 0.4rem;
+
+    @media screen and (min-width: 640px) {
+      padding-inline: 0.67rem;
+    }
+
+    @media print {
+      padding-inline: 0.67rem;
+    }
   }
 }
